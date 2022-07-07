@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+    width: 100vw;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    
+}
+
+.navleft
+{
+    display: flex;
+    
+    
+}
+
+.navbar{
+    display: flex;
+    margin-left: 3rem;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 1rem;
+    font-size: 14px;
+    font-weight: 500;
+}
+.logo img{
+    width: 7rem;
+}
+
+.navright
+{
+    display: flex;
+    width:25%;
+}
+
+.navright img{
+    filter: invert(1);
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+
+.icons-1:hover{
+    width: 1.75rem;
+}
+
+.showcase .joker{
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+}
+
+.show-content
+{
+    padding: 9% 5%;
+}
+
+.show-details{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+}
+
+.show-title h1{
+    font-size: calc(.5em + 6vw);
+}
+
+.show-desc{
+    margin-top: 3%;
+    margin-bottom: 3%;    
+}
+.show-desc h2{
+    font-size: calc(.5em + 1vw);
+    font-weight: 400;
+}
+
+.show-buttons{
+    display: flex;
+}
+
+
+
+.btn-play,.btn-info{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: max-content;
+    border-radius: 5px;
+    padding: 0 1rem;
+    margin-right: 1rem;
+}
+
+.btn-play img{
+    width: 2.5rem;
+} 
+
+.btn-play a{
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.info{
+    color: white;
+    font-weight: 700;
+    padding:0  0.3rem;
+    font-size: calc(.5em + 1vw);
+    border: solid white 3px;
+    border-radius: 10rem;
+    margin-right: 0.5rem;
+}
+
+.itext{
+    color: white;   
+}
+.btn-info{
+    padding-left: 0.5rem;
+    background-color: gray;
+}
+
+.movie-list{
+    padding: 0 5%;
+}
+
+.genres{
+    display: flex;
+    flex-direction: column ;
+}
+
+.genre-title{
+    font-size: calc(.5em + 1vw);
+    font-weight: 500;
+}
+
+.movie-cards{
+    display: flex;
+    margin-top: 1rem ;
+}
+
+.movie-cards img{
+    margin-left: 1%;
+    width: 18%;
+}
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+.mov:hover{
+    transform: translateY(-3px);
+}
+
+.cardinfo{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    align-items:center;
+    justify-content:center;
+}
+
+.invisible {
+    display: none;
+}
+
+
+
+.card-content{
+    background-color:black;
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    z-index: inherit;
+   
+}
+
+.card-content img{
+    width:inherit;
+}
+#firstm{
+    margin-left: 0;
+}
+
+.close {
+    margin-left: 95%;
+}
+
+.moviepic{
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+
+.movtitle{
+    display: flex;
+   
+}
+.movtitle h1{
+    font-size: 4rem;
+    padding: 0 3%;
+    width: fit-content;
+}
+
+.movdesc{
+    padding: 1% 3%;
+    
+}
+
+.movdesc h2{
+    font-weight: 300;
+
+}
+
+
+.swiper-button
+
+
+@media (min-width: 768px)
